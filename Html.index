@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic identification evisa portal - Republic of Serbia</title>
+    <style>
+        :root { --serbia-blue: #003366; --serbia-red: #c6363c; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f0f2f5; margin: 0; padding: 10px; }
+        .verification-badge { background: #28a745; color: white; text-align: center; padding: 8px; font-weight: bold; border-radius: 4px; margin-bottom: 10px; font-size: 0.9rem; }
+        .portal-container { max-width: 500px; margin: 0 auto; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.15); border-top: 5px solid var(--serbia-blue); }
+        .header { display: flex; align-items: center; padding: 15px; background: #fff; border-bottom: 1px solid #eee; }
+        .logo { height: 60px; margin-right: 15px; }
+        .header-text h1 { font-size: 13px; margin: 0; color: var(--serbia-blue); line-height: 1.2; text-transform: uppercase; }
+        .headline { background: var(--serbia-blue); color: white; text-align: center; padding: 12px; font-size: 1.1rem; font-weight: bold; }
+        .status-box { padding: 15px; background: #e8f5e9; border-bottom: 1px solid #c8e6c9; display: flex; align-items: center; justify-content: center; color: #2e7d32; font-weight: bold; }
+        .section-title { background: #f8f9fa; padding: 8px 15px; font-size: 0.8rem; font-weight: bold; color: #555; text-transform: uppercase; border-left: 4px solid var(--serbia-blue); margin-top: 10px; }
+        .row { display: flex; justify-content: space-between; padding: 10px 15px; border-bottom: 1px solid #f1f1f1; }
+        .label { font-size: 0.75rem; color: #777; width: 45%; font-style: italic; }
+        .value { font-size: 0.9rem; font-weight: 600; width: 55%; text-align: right; color: #222; }
+        .footer { font-size: 0.7rem; padding: 20px; color: #999; text-align: center; line-height: 1.4; background: #fafafa; }
+        .verified-stamp { text-align: center; padding: 20px; opacity: 0.6; }
+    </style>
+</head>
+<body>
+
+<div class="verification-badge">✓ OFFICIALLY VERIFIED RECORD</div>
+
+<div class="portal-container">
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coat_of_arms_of_Serbia_small.svg/800px-Coat_of_arms_of_Serbia_small.svg.png" alt="Logo" class="logo">
+        <div class="header-text">
+            <h1>РЕПУБЛИКА СРБИЈА МИН. СПОЉНИХ ПОСЛОВА</h1>
+            <h1 style="color:#555">REPUBLIC OF SERBIA MINISTRY OF FOREIGN AFFAIRS</h1>
+        </div>
+    </div>
+
+    <div class="headline">Electronic identification evisa portal</div>
+    
+    <div class="status-box">VALID / ВАЖЕЋА</div>
+
+    <div class="section-title">Visa Information / Подаци о визи</div>
+    <div class="row"><div class="label">Visa ID / ИД број визе</div><div class="value">DGT303367</div></div>
+    <div class="row"><div class="label">Application ID / ИД апликације</div><div class="value">60912-43143-49933</div></div>
+    <div class="row"><div class="label">Verification Code / Код</div><div class="value">a16a1170-1566-4418-9d3c-Ja86483</div></div>
+
+    <div class="section-title">Personal Details / Лични подаци</div>
+    <div class="row"><div class="label">Full Name / Презиме Име</div><div class="value">ZAIN MUHAMMAD</div></div>
+    <div class="row"><div class="label">Date of Birth / Датум рођења</div><div class="value">26/07/2001</div></div>
+    <div class="row"><div class="label">Nationality / Националност</div><div class="value">PAKISTANI</div></div>
+    <div class="row"><div class="label">Passport / Број пасоша</div><div class="value">EC5903451</div></div>
+
+    <div class="section-title">Validity / Рок важења</div>
+    <div class="row"><div class="label">Valid From / Од</div><div class="value">27/03/2026</div></div>
+    <div class="row"><div class="label">Valid To / До</div><div class="value">25/06/2026</div></div>
+    <div class="row"><div class="label">Stay Duration / Боравак</div><div class="value">90 Days (Single Entry)</div></div>
+
+    <div class="verified-stamp">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Approval_icon.svg/120px-Approval_icon.svg.png" width="40">
+         <p style="font-size: 10px; color: #666; margin-top: 5px;">MFA Serbia - Digital Security Record Verified</p>
+    </div>
+
+    <div class="footer">
+        This portal view is generated from official electronic visa data. 
+        Entry is subject to border control verification.
+    </div>
+</div>
+
+</body>
+</html>
